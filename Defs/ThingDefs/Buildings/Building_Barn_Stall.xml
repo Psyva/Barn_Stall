@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ++++++++++++++++++++++++++++++++BarnStall++++++++++++++++++++++++++++++++ -->
+
+
+	<ThingDef ParentName="BarnStallBase">
+		<defName>BarnStall</defName>
+		<label>barn stall</label>
+		<description>A stall for your barn animals. Fits any animal.</description>
+		<rotatable>true</rotatable>
+		<pathCost>40</pathCost>
+		<castEdgeShadows>true</castEdgeShadows>
+		<graphicData>
+			<texPath>Things/Building/BarnStall</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2.1,2.1</drawSize>
+		</graphicData>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>75</costStuffCount>
+		<size>(2,2)</size>
+		<building>
+			<bed_humanlike>false</bed_humanlike>
+			<bed_showSleeperBody>true</bed_showSleeperBody>
+			<bed_healPerDay>10</bed_healPerDay>
+		</building>
+		<statBases>
+			<MaxHitPoints>140</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToMake>600</WorkToMake>
+			<BedRestEffectiveness>1</BedRestEffectiveness>
+			<Comfort>0.95</Comfort>
+			<ImmunityGainSpeedFactor>1.5</ImmunityGainSpeedFactor>
+		</statBases>
+	</ThingDef>
+
+
+</Defs>
+
+
+
+
+
+

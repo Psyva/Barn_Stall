@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="BuildingBase" Abstract="True">
+		<category>Building</category>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<selectable>true</selectable>
+		<designationCategory>Misc</designationCategory>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<repairEffect>Repair</repairEffect>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
+	</ThingDef>
+	  
+	<ThingDef Name="BarnStallBase" Abstract="True" ParentName="BuildingBase">
+		<thingClass>Building_Bed</thingClass>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.25</fillPercent>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<passability>PassThroughOnly</passability>
+		<surfaceType>Item</surfaceType>
+	</ThingDef>
+
+</Defs>
